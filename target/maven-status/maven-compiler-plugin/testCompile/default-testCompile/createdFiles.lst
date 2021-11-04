@@ -1,0 +1,10 @@
+com\saucedemo\runners\CucumberRunner.class
+com\saucedemo\utils\BrowserUtils.class
+com\saucedemo\pages\BasePage.class
+com\saucedemo\step_definitions\LoginStepDefinitions.class
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\utils\ConfigurationReader.class
+com\saucedemo\utils\Driver.class
+com\saucedemo\runners\CucumberRunnerForIOS.class
+com\saucedemo\runners\FailedRunner.class
+com\saucedemo\step_definitions\Hooks.class

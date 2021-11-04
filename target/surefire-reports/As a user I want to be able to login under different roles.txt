@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: As a user I want to be able to login under different roles
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 337.358 s <<< FAILURE! - in As a user I want to be able to login under different roles
+As a user I want to be able to login under different roles.Empty password  Time elapsed: 91.633 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: Driver
+remote stacktrace: 
+
+As a user I want to be able to login under different roles.Empty password  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+
+As a user I want to be able to login under different roles.Empty username  Time elapsed: 0.228 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+
+As a user I want to be able to login under different roles.Empty username  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+
+As a user I want to be able to login under different roles.Parametrized login as performance_glitch_user  Time elapsed: 0.03 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+
+As a user I want to be able to login under different roles.Parametrized login as performance_glitch_user  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+
+As a user I want to be able to login under different roles.Parametrized login as standard_user  Time elapsed: 0.025 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+
+As a user I want to be able to login under different roles.Parametrized login as standard_user  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FHH28JQ', ip: '192.168.1.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211028161635, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17260, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c100ebbc-06c2-4cf3-acfa-d74b2e6e2732
+

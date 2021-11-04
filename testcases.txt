@@ -1,0 +1,13 @@
+
+0. As a user I want to be able to login under different roles
+1. Login as a standard user, verify if a user will be able to login with a valid username and valid password.
+2. Login as a performance glitch user,verify if a user will be able to login with a valid username and valid password.
+   in this case selenium driver has to wait until page uploaded.
+3. Login as a problem user, verify if a user will be able to login with a valid username and valid password,
+   in this case we are able to log in, but we need to verify pictures on the page.
+4. Login as a locked out user, verify the messages for invalid login.
+5. Invalid password, verify the messages for invalid login.
+6. Empty password, verify the messages for invalid login.
+7. Empty username, verify the messages for invalid login.
+8. Parametrized login as performance glitch user, parametrized login as standard user,
+   verify if a user will be able to login with a valid username and valid password by using scenario outline.
